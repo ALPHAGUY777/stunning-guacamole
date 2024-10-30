@@ -1,0 +1,72 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Container */
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+.header button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #ffcc00;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+section p {
+    color: #666;
+}
+
+/* Beaver Animation */
+.beaver-hole {
+    position: relative;
+    height: 150px;
+    margin: 20px;
+}
+.beaver {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
